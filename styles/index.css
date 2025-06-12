@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* header */
+header {
+    display: flex;
+    /* Justifica el logo y el nombre de Pokedex */
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: rgb(255, 213, 0);
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(5, 155, 248);
+}
+nav a {
+    padding: 25px;
+}
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+}
+header img {
+    width: 50px;
+}

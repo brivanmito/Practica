@@ -91,7 +91,7 @@ fetch(`https://pokeapi.co/api/v2/type/${tipologia}`)
   })
   .catch(error => console.error('Error al obtener el tipo:', error));
 
-//adding a new file
+//adding a new filerrrrr
 
 function capitalizarNombres(cadena) {
   return cadena.charAt(0).toUpperCase() + cadena.slice(1);

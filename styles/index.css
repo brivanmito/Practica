@@ -37,6 +37,28 @@ header img {
     width: 50px;
 }
 
-ul img{
-    width: 400px;
+#lista-pokemones-div img {
+    width: 200px;
+}
+#lista-pokemones-div {
+    display: flex;
+
+}
+.pokemon-info {
+    text-align: center;
+    background-color: rgb(226, 255, 3);
+    margin: 10px;
+    padding: 10px;
+}
+.pokemon-info:hover {
+    background-color: rgb(255, 192, 2);
+    font-weight: bold;
+}
+main h2 {
+    text-align: center;
+    padding: 10px;
+}
+main h4 {
+    padding: 10px;
+    font-weight: 400;
 }

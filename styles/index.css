@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
+}
+body {
+    font-family: "Roboto";
+    color: black;
 }
 
 /* header */
@@ -12,19 +18,25 @@ header {
     align-items: center;
     justify-content: center;
     padding: 25px;
-    background-color: rgb(255, 213, 0);
+    background-color: rgb(255, 188, 10);
 }
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(5, 155, 248);
+    background-color: rgb(236, 125, 16);
 }
 nav a {
     padding: 25px;
+    color: black;
 }
 nav a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 46, 0);
+    font-weight: 440;
 }
 header img {
     width: 50px;
+}
+
+ul img{
+    width: 400px;
 }
